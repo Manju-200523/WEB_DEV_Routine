@@ -1,0 +1,50 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* All h1 boxes */
+h1 {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #e3f2fd;
+}
+
+/* Inline */
+.container-inline h1 {
+  display: inline;
+  background-color: #ffcdd2;
+}
+
+/* Inline-block */
+.container-inline-block h1 {
+  display: inline-block;
+  background-color: #c8e6c9;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Flex */
+.container-flex {
+  display: flex;
+  gap: 10px;
+  background-color: #f3e5f5;
+  padding: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Grid */
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 10px;
+  background-color: #fff9c4;
+  padding: 10px;
+  justify-content: center;
+}
